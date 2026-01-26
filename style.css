@@ -1,0 +1,87 @@
+*{
+border:none;
+background:#8affff;
+color:#000;
+font-weight:600;
+border-radius:30px;
+cursor:pointer;
+}
+
+
+/* CATEGORY SECTIONS */
+.category{
+height:100vh;
+display:flex;
+align-items:center;
+padding:80px;
+}
+
+
+.content{
+max-width:500px;
+}
+
+
+.content h2{
+font-size:48px;
+}
+
+
+.content p{
+margin:20px 0;
+opacity:0.8;
+}
+
+
+.content button{
+padding:12px 35px;
+background:none;
+border:2px solid white;
+color:white;
+border-radius:30px;
+cursor:pointer;
+transition:0.3s;
+}
+
+
+.content button:hover{
+background:white;
+color:black;
+}
+
+
+/* DIFFERENT COLORS */
+.fitness{
+background:linear-gradient(135deg,#00ff9c,#007f5f);
+}
+
+
+.clothes{
+background:linear-gradient(135deg,#9b5cff,#4b1fa3);
+}
+
+
+.tech{
+background:linear-gradient(135deg,#00c6ff,#0047ab);
+}
+
+
+/* FOOTER */
+footer{
+background:#000;
+padding:60px;
+text-align:center;
+}
+
+
+footer a{
+color:#8affff;
+text-decoration:none;
+}
+
+
+@media(max-width:768px){
+.hero h1{font-size:40px;}
+.content h2{font-size:36px;}
+.navbar{padding:20px;}
+}
